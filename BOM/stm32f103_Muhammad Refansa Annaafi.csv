@@ -10,9 +10,9 @@
 9;"J1,J4";"PinHeader_1x04_P1.00mm_Vertical";2;"Conn_01x04_Pin";;;
 10;"C12,C11,C5";"C_0603_";3;"10u";;;
 11;"SW2";"SW_SPDT_PCM12";1;"SW_SPDT";;;
-12;"U1";"LQFP-48_7x7mm_P0.5mm";1;"STM32F100C8Tx";;;
+12;"U1";"LQFP-48_7x7mm_P0.5mm";1;"STM32F103";;;
 13;"FB1";"BLM18PG121SN1D";1;"120R";;;
-14;"R2";"R_0603";1;"R";;;
+14;"R2";"R_0603";1;"1k";;;
 15;"J3";"PinHeader_1x06_P1.00mm_Vertical";1;"Conn_01x06_Pin";;;
 16;"J2";"USB_Micro-B_Wuerth_629105150521";1;"USB_B_Micro";;;
 17;"D1";"LED_0603_1608Metric";1;"RED";;;

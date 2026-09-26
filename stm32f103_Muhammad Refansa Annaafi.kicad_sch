@@ -7358,7 +7358,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d4d1795-3f20-49c7-b669-3995f89ec269")
 		(property "Reference" "R2"
-			(at 255.27 76.1999 90)
+			(at 255.27 77.4699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,8 +7366,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
-			(at 255.27 78.7399 90)
+		(property "Value" "1k"
+			(at 255.27 80.0099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8146,7 +8146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F100C8Tx"
+		(property "Value" "STM32F103"
 			(at 132.9533 147.32 0)
 			(effects
 				(font

@@ -6,7 +6,7 @@ A compact 2-layer STM32F103 (LQFP-48) breakout board designed in **KiCad 9**. It
 
 ## Features
 
-- **MCU:** STM32F1 in LQFP-48 (U1). The schematic uses the KiCad `STM32F100C8Tx` symbol, which has the same LQFP-48 pinout used for an STM32F103C8T6.
+- **MCU:** STM32F103 in LQFP-48 (U1)
 - **Clock:** 16 MHz crystal (TSX-3225) with 8 pF load capacitors
 - **Power:** USB Micro-B → AMS1117-3.3 LDO → 3.3 V, with a ferrite bead (120 Ω) filtering VDDA
 - **USB:** D+ pull-up (1k5) on PA12
@@ -43,7 +43,7 @@ A compact 2-layer STM32F103 (LQFP-48) breakout board designed in **KiCad 9**. It
 
 | Ref | Value | Footprint | Qty |
 |---|---|---|---|
-| U1 | STM32F1 (LQFP-48) | LQFP-48_7x7mm_P0.5mm | 1 |
+| U1 | STM32F103 | LQFP-48_7x7mm_P0.5mm | 1 |
 | U2 | AMS1117-3.3 | SOT-223-3 | 1 |
 | Y1 | 16 MHz crystal | TSX-3225 | 1 |
 | J2 | USB Micro-B | Würth 629105150521 | 1 |
@@ -54,7 +54,7 @@ A compact 2-layer STM32F103 (LQFP-48) breakout board designed in **KiCad 9**. It
 | C8, C9 | 8 pF | 0603 | 2 |
 | R1 | 10 kΩ | 0603 | 1 |
 | R3, R4, R5 | 1.5 kΩ | 0603 | 3 |
-| R2 | LED resistor | 0603 | 1 |
+| R2 | 1 kΩ (LED resistor) | 0603 | 1 |
 | D1 | Red LED | 0603 | 1 |
 | SW1 | Tactile switch | 434133025816 | 1 |
 | SW2 | SPDT slide switch | PCM12 | 1 |
